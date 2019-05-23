@@ -32,6 +32,9 @@
             android:background="@color/colorPrimary"
             android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" />
 
+        <!--
+        app:defaultNavHost="true" connect the system back button to the NavHostFragment
+        -->
         <fragment
             android:id="@+id/my_nav_host_fragment"
             android:name="androidx.navigation.fragment.NavHostFragment"
